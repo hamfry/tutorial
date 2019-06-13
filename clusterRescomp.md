@@ -29,7 +29,7 @@ module load Anaconda3/5.1.0
 Before installing any python package it is recommended to create an enviroment as:
 
 ```shell
-$ conda create --name myenv 
+$ conda create --name myenv python==3.7.*
 ```
 
 You can create a new enviroment with all your required packages using a a .yml file like:
